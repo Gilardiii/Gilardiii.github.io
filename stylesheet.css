@@ -50,7 +50,7 @@ a {
   margin: 10px 0;
 }
 
-.signup {
+.whatsapp {
   background-color: #239b76;
 }
 
@@ -61,6 +61,11 @@ a {
 
 .twitter {
   background-color: #55acee;
+  margin-right: 10px;
+}
+
+.instagram {
+  background-color: #C71585;
 }
 
 .btn {
