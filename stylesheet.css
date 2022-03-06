@@ -4,10 +4,7 @@
 
 body {
   margin: 0;
-  font-family: "Lucida Grande";
-}
-
-a {
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji; 
   text-decoration: none;
 }
 
@@ -22,55 +19,15 @@ a {
 }
 
 .top-wrapper {
-  padding: 180px 0 100px 0;
-  background-image: url(https://raw.githubusercontent.com/Gilardiii/Gilardiii.github.io/main/WhatsApp%20Image%202022-02-01%20at%2017.55.46.jpeg);
+  padding: 350mm 0 28mm 0;
+  background-image: url(https://raw.githubusercontent.com/Gilardiii/WeddingOrganizer/main/WhatsApp%20Image%202022-03-05%20at%2016.36.22.jpeg);
   background-size: cover;
-  color: black;
+  color: white;
   text-align: center;
 }
-
-.top-wrapper h1 {
-  opacity: 0.7;
-  font-size: 45px;
-  letter-spacing: 4px;
-  margin-bottom: 7px;
-}
-
-.top-wrapper p {
-  opacity: 0.7;
-  margin-bottom: 3px;
-}
-
-.btn-wrapper {
-  text-align: center;
-  margin: 150px 0;
-}
-
-.btn-wrapper p {
-  margin: 10px 0;
-}
-
-.whatsapp {
-  background-color: #239b76;
-}
-
-.facebook {
-  background-color: #3b5998;
-  margin-right: 10px;
-}
-
-.twitter {
-  background-color: #55acee;
-  margin-right: 10px;
-}
-
-.instagram {
-  background-color: #C71585;
-}
-
 .btn {
   padding: 12px 24px;
-  color: black;
+  color: white;
   display: inline-block;
   opacity: 0.8;
   border-radius: 4px;
@@ -86,17 +43,17 @@ a {
 }
 
 header {
-  height: 60px;
+  height: 65px;
   width: 100%;
-  background-color: rgb(128,128,128);
+  background-color: rgba(252,192,203);
   position :fixed;
   top: 0;
   z-index: 10;
 }
 
 .logo {
-  width: 176px;
-  margin-top: 15px;
+  width: 180px;
+  margin-top: -30px;
 }
 
 .header-left {
@@ -120,7 +77,6 @@ header {
 .header-right a:hover {
   background-color: rgba(255, 255, 255, 0.3);
 }
-
 .menu-icon{
   color: white;
   float: right;
@@ -133,13 +89,17 @@ header {
   padding-bottom: 80px;
   padding-left: 5%;
   padding-right: 5%;
-  background-color: #f7f7f7;
+  background-color: #f778;
   text-align: center;
 }
 
+.lesson-icon {
+  padding-left : 5%;
+  padding-right : 20%;
+} 
 .heading {
-  padding-top: 80px;
-  padding-bottom: 60px;
+  padding-top: 70px;
+  padding-bottom: 5px;
   color: #5f5d60;
 }
 
@@ -150,121 +110,4 @@ header {
 .lesson {
   float: left;
   width: 25%;
-}
-
-.lesson-icon {
-  position: relative;
-}
-
-.lesson-icon p {
-  position: absolute;
-  top: 44%;
-  width: 100%;
-  color: white;
-}
-
-.text-contents {
-  width: 80%;
-  display: inline-block;
-  margin-top: 15px;
-  font-size: 15px;
-  color: #b3aeb5;
-}
-
-
-.text-contents2 {
-  width: 260%;
-  display: inline-block;
-  margin-top: 45px;
-  font-size: 28px;
-  color: #b3aeb5;
-  padding-right: 50px;
-  text-align: center;
-}
-
-.lesson2 {
-  float: center;
-}
-.heading h3 {
-  font-weight: normal;
-}
-
-.message-wrapper {
-  border-bottom: 1px solid #eee;
-  padding-bottom: 80px;
-  text-align: center;
-}
-
-.message {
-  padding: 15px 40px;
-  background-color: #5dca88;
-  cursor: pointer;
-  box-shadow: 0 7px #1a7940;
-}
-
-.message:active {
-  position: relative;
-  top: 7px;
-  box-shadow: none;
-}
-
-footer img {
-  width: 225px;
-}
-
-footer p {
-  color: #b3aeb5;
-  font-size: 13px;
-}
-
-footer {
-  padding-top: 5px;
-  padding-bottom: 20px;
-}
-
-@media all and (max-width: 1000px) {
-  .top-wrapper h1 {
-    font-size: 32px;
-  }
-  .heading h2 {
-    font-size: 20px;
-  }
-  .lesson {
-   width: 50%;
-   margin-bottom: 50px;
-   }
-}
-@media all and (max-width: 670px) {
-  
-  .btn {
-    width: 100%;
-  }
-  
-  .facebook {
-    margin-bottom: 10px;
-  }
-  
-  .top-wrapper {
-    text-align: left;
-  }
-  .header-right {
-    display: none;
-  }
-  .menu-icon {
-    display: block;
-  }
-  .top-wrapper h1 {            
-    font-size: 24px;            
-    line-height: 36px;            
-  }            
-  .top-wrapper p {            
-    font-size: 14px;            
-    line-height: 20px;            
-  }
-  .lesson {
-    width: 100%;
-  }
-  footer {
-    text-align: right;
-  }
 }
